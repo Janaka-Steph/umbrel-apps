@@ -2,7 +2,7 @@ manifestVersion: 1
 id: invidious
 category: social
 name: Invidious
-version: "2023.4.10-961cae2"
+version: "2.20240825.2"
 tagline: Browse YouTube without tracking or ads
 description: >-
   An open source alternative front-end to YouTube
@@ -26,7 +26,7 @@ description: >-
    - Import watch history from NewPipe
    - Export subscriptions to NewPipe and Freetube
    - Import/Export Invidious user data
-  
+
   Technical features:
    - Embedded video support
    - Developer API
@@ -48,20 +48,14 @@ defaultUsername: ""
 defaultPassword: ""
 torOnly: false
 releaseNotes: >-
-  - Fix for subscription feed not updating.
+  New features and improvements:
+    - Search bar now has a clickable button
+    - YouTube URLs can be pasted directly in the search bar
+    - Channel page "streams" tab can be sorted by newest, oldest, or popular
+    - Videos embedded in local HTML files can now be played
+    - Updated translations
 
-  - Improve accessibility
 
-  - Videos: Add support for attributed descriptions
-  
-  - Update specs
-
-  - Videos: fix description text offset when emojis are present
-
-  - fix view count extraction
-
-  - Search: Fix channel search
-  
-  - CSS: fix long description overflow
+  For full release notes, visit https://github.com/iv-org/invidious/releases
 submitter: Jasper
 submission: https://github.com/getumbrel/umbrel-apps/pull/129

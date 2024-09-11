@@ -2,7 +2,7 @@ manifestVersion: 1
 id: ghostfolio
 category: finance
 name: Ghostfolio
-version: "1.287.0"
+version: "2.106.0"
 tagline: Manage your wealth like a boss
 description: >-
   Ghostfolio is a privacy-first, open source dashboard for your personal finances.
@@ -31,20 +31,15 @@ path: ""
 deterministicPassword: false
 torOnly: false
 releaseNotes: >
-  Changed:
-
-  - Hid the average buy price in the position detail chart if there is no holding
-  
-  - Improved the language localization for French
-  
-  - Refactored the blog articles to standalone components
-
-
-  Fixed:
-  
-  - Fixed the sorting by currency in the activities table
+  This release includes several improvements:
+    - Set up a performance logging service
+    - Added loading indicators to the queue jobs and users tables in the admin control panel
+    - Reworked the portfolio calculator
+    - Improved caching of the portfolio snapshot
+    - Improved language localization for Polish
+    - Fixed issues in the view mode toggle of the holdings tab and on the portfolio activities page
 
 
-  For full release notes and additional changes from previous version 1.269, please visit: https://github.com/ghostfolio/ghostfolio/releases
+  Full release notes are found at https://github.com/ghostfolio/ghostfolio/releases.
 submitter: BeauAgst
 submission: https://github.com/getumbrel/umbrel-apps/pull/396

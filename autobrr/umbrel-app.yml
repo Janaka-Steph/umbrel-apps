@@ -1,0 +1,51 @@
+manifestVersion: 1
+id: autobrr
+category: media
+name: autobrr
+version: "1.45.0"
+tagline: Modern, easy to use download automation for torrents and usenet
+description: >-
+  autobrr is the modern download automation tool for torrents and usenet.
+  With inspiration and ideas from tools like trackarr, autodl-irssi and flexget we built one tool that can do it all, and then some.
+
+
+  Many indexers announce new torrents on their IRC channels the second it is uploaded to the site.
+
+
+  autobrr monitors such channels in real time and grabs the torrent file as soon as it's uploaded based on certain conditions that you set up within autobrr.
+
+
+  It then sends that torrent file to a download client of your choice. A download client can be anything from qBittorrent, Deluge, Radarr, Sonarr, watch folder, and more.
+releaseNotes: >-
+  New Features:
+
+    - Added support for daily shows
+    - Introduced new indexers: SATClubbing, SeedPool, and iNSANE
+    - Improved filters with validation for max downloads unit
+    - Enhanced HD-Only indexer with size information
+
+
+  Bug fixes:
+
+    - Improved feed handling with staggered start implementation
+    - Fixed issues with specific indexers including HD-Only and TheOldSchool
+    - Resolved web interface problems, including filter dropdown display
+    - Enhanced release action retry mechanism
+
+
+  Full release notes are available at https://autobrr.com/release-notes
+developer: autobrr
+website: https://autobrr.com/
+dependencies: []
+repo: https://github.com/autobrr/autobrr
+support: https://autobrr.com/introduction
+port: 7474
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: fabricionaweb
+submission: https://github.com/getumbrel/umbrel-apps/pull/731
